@@ -1,3 +1,68 @@
 * {
   border: 1px solid black;
 }
+
+body {
+  display: block;
+}
+input#name {
+  outline: 10px solid black;
+  /* border: 10px solid black; */
+  margin: 1rem;
+}
+
+input#password {
+  /* display: flex;
+  justify-content: flex-end; */
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+label {
+  font-weight: 900;
+  margin: 0rem 1rem 0rem 0rem;
+}
+label.rad {
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+ul.ull > li {
+  /* display: inline; */
+  list-style: none;
+  /* justify-content: space-around; */
+}
+
+ul.ull {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  background-color: yellow;
+}
+
+.backblack {
+  background-color: black;
+  color: white;
+  font-weight: 900;
+}
+
+div.checky {
+  /* display: flex;
+  flex-direction: row; */
+
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+}

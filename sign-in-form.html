@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Roosters</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Estos son checkboxes</legend>
+      <div class="checky">
+        <label for="student">Student</label>
+        <input type="checkbox" name="student" id="student" />
+      </div>
+      <div class="checky">
+        <label for="teacher">Teacher</label>
+        <input type="checkbox" name="teacher" id="teacher" />
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Introduce tu sexo:</legend>
+      <label for="mujer" class="rad">Mujer</label>
+      <input type="radio" name="sexo" id="mujer" />
+
+      <label for="hombre" class="rad">Hombre</label>
+      <input type="radio" name="sexo" id="hombre" />
+
+      <label for="no-definido" class="rad">No definido</label>
+      <input type="radio" name="sexo" id="no-definido" />
+    </fieldset>
+
+    <label>color</label>
+    <input type="color" />
+    <br />
+    <label>DATE</label>
+    <input type="date" />
+    <h1>Sign-in form</h1>
+    <form action="/" method="POST">
+      <div>
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter your name"
+          required="true"
+          pattern="[a-z]{4}"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+          pattern="[a-zA-Z]{50}"
+        />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          name="password"
+          id="password"
+        />
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" />
+      </div>
+      <div>
+        <input type="submit" value="Submit form" />
+      </div>
+
+      <div>
+        <label for="file">File</label>
+        <input type="file" name="file" id="file" />
+      </div>
+
+      <div>
+        <label for="mortgage">Hipoteca</label>
+        <input type="range" name="mortgage" id="mortgage" min="0" max="50000" />
+        <!-- <span></span> -->
+      </div>
+      <div>
+        <label for="telephone">Phone number</label>
+        <input
+          type="tel"
+          name="telephone"
+          id="telephone"
+          required
+          pattern="[0-9]{9}"
+        />
+      </div>
+      <div>
+        <select name="" id="">
+          <optgroup label="group1">
+            <option value="1.1">Option 1</option>
+          </optgroup>
+          <optgroup label="group2">
+            <option>Option 2</option>
+          </optgroup>
+        </select>
+        <textarea name="area" id="arrr" cols="30" rows="10"></textarea>
+      </div>
+      <button type="reset">Reset form</button>
+      <input type="reset" value="2nd reset method" class="backblack" />
+    </form>
+
+    <ul class="ull">
+      <li>a</li>
+      <li>b</li>
+      <li>c</li>
+      <li>e</li>
+    </ul>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+    </ul>
+
+    <form action="">
+      <label for="nommbre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" />
+    </form>
+  </body>
+</html>
+
+<script>
+  const data = {
+    nombre: '',
+    password: '',
+    age: 0,
+  };
+</script>
